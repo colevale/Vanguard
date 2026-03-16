@@ -1,3 +1,6 @@
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
 *.suo filter=lfs diff=lfs merge=lfs -text
 *.vsconfig filter=lfs diff=lfs merge=lfs -text
 *.sln filter=lfs diff=lfs merge=lfs -text
@@ -29,7 +32,6 @@
 *.json filter=lfs diff=lfs merge=lfs -text
 *.wlt filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 /Build/4483[[:space:]]Group[[:space:]]Project_Data/Resources/unity[[:space:]]default[[:space:]]resources filter=lfs diff=lfs merge=lfs -text
 /Build/4483[[:space:]]Group[[:space:]]Project_Data/Resources/unity_builtin_extra filter=lfs diff=lfs merge=lfs -text
 *.info filter=lfs diff=lfs merge=lfs -text
@@ -2959,8 +2961,6 @@
 /Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/hostlin/llvm-lipo filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/hostmac/llvm-lipo filter=lfs diff=lfs merge=lfs -text
-*.dylib filter=lfs diff=lfs merge=lfs -text
-*.so filter=lfs diff=lfs merge=lfs -text
 *.a filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
 *.asmref filter=lfs diff=lfs merge=lfs -text
